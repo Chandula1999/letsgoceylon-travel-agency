@@ -58,11 +58,11 @@ export default function BlogSidebar() {
                 <div className="space-y-4 text-sm">
                     <div className="flex items-center gap-3 opacity-90">
                         <Phone className="w-4 h-4" />
-                        <span>+94 77 123 4567</span>
+                        <span>+94 71 962 9664</span>
                     </div>
                     <div className="flex items-center gap-3 opacity-90">
                         <Mail className="w-4 h-4" />
-                        <span>hello@letsgoceylon.com</span>
+                        <span>letsgoceylontours@gmail.com</span>
                     </div>
                 </div>
             </div>

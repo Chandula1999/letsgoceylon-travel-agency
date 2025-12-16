@@ -31,7 +31,7 @@ export default function StickyMobileCTA() {
                     <div className="flex gap-2">
                         {/* Call Now Button */}
                         <a
-                            href="tel:0719629661"
+                            href="tel:+94719629664"
                             className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-gray-900 text-white rounded-full font-semibold text-sm active:scale-95 transition-all"
                         >
                             <Phone className="w-4 h-4" />

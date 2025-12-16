@@ -29,7 +29,7 @@ export default function TaxiHero() {
             `🚙 Vehicle: ${formData.vehicle}\n` +
             `💬 Message: ${formData.message}`
         );
-        window.open(`https://wa.me/94719629661?text=${message}`, "_blank");
+        window.open(`https://wa.me/94719629664?text=${message}`, "_blank");
     };
 
     return (
@@ -69,8 +69,8 @@ export default function TaxiHero() {
                             </div>
                             <div>
                                 <p className="text-gray-400 text-sm font-medium uppercase tracking-widest">Call for Booking</p>
-                                <a href="tel:0719629661" className="text-3xl md:text-5xl font-bold text-white hover:text-emerald-500 transition-colors">
-                                    071 962 9661
+                                <a href="tel:+94719629664" className="text-3xl md:text-5xl font-bold text-white hover:text-emerald-500 transition-colors">
+                                    +94 71 962 9664
                                 </a>
                             </div>
                         </div>

@@ -16,7 +16,6 @@ export default function TaxiPage() {
             <TaxiPricing />
             <TaxiFeatures />
             <TaxiFAQ />
-
             <FloatingContact position="left" />
             <Footer />
         </main>

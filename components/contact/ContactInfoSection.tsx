@@ -8,23 +8,23 @@ const CONTACT_INFO = [
         icon: Phone,
         title: "Call Us",
         label: "Mon-Fri from 8am to 5pm",
-        value: "+94 77 123 4567",
-        action: "tel:+94771234567",
+        value: "+94 71 962 9664",
+        action: "tel:+94719629664",
         color: "bg-blue-50 text-blue-600"
     },
     {
         icon: Mail,
         title: "Email Us",
         label: "Online support 24/7",
-        value: "hello@letsgoceylon.com",
-        action: "mailto:hello@letsgoceylon.com",
+        value: "letsgoceylontours@gmail.com",
+        action: "mailto:letsgoceylontours@gmail.com",
         color: "bg-orange-50 text-orange-600"
     },
     {
         icon: MapPin,
         title: "Visit Our Office",
         label: "Come say hello at our HQ",
-        value: "123 Galle Road, Colombo 03, Sri Lanka",
+        value: "No;681/3,Wattegedara, Pelena, Weligama",
         action: "https://maps.google.com",
         color: "bg-purple-50 text-purple-600"
     },

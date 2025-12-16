@@ -96,15 +96,15 @@ export default function Footer() {
                         <ul className="space-y-4 text-sm">
                             <li className="flex items-start gap-3">
                                 <MapPin className="w-5 h-5 text-primary shrink-0" />
-                                <span className="text-gray-400">123 Temple Road, Kandy, Sri Lanka</span>
+                                <span className="text-gray-400">No;681/3,Wattegedara, Pelena, Weligama</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Phone className="w-5 h-5 text-primary shrink-0" />
-                                <span className="text-gray-400">+94 77 123 4567</span>
+                                <span className="text-gray-400">+94 71 962 9664</span>
                             </li>
                             <li className="flex items-center gap-3">
                                 <Mail className="w-5 h-5 text-primary shrink-0" />
-                                <span className="text-gray-400">hello@letsgoceylon.com</span>
+                                <span className="text-gray-400">letsgoceylontours@gmail.com</span>
                             </li>
                             <li className="pt-4">
                                 <Link href="/contact" className="text-primary hover:text-primary/80 font-medium flex items-center gap-1">

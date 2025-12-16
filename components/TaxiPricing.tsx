@@ -17,7 +17,7 @@ const VEHICLES = [
     {
         name: "Mini Van",
         image: "/assets/minivan.png",
-        price: "135",
+        price: "145",
         pax: 6,
         luggage: 4,
         features: ["Fully Air Conditioned", "Spacious Interior", "Sliding Doors", "Ideal for Families"],
@@ -26,7 +26,7 @@ const VEHICLES = [
     {
         name: "Large Van",
         image: "/assets/high_roof-.png",
-        price: "150",
+        price: "160",
         pax: 10,
         luggage: 7,
         features: ["High Roof / AC", "Adjustable Seats", "Ample Luggage Space", "Perfect for Tours"],

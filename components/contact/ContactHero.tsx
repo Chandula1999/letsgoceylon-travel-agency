@@ -35,15 +35,15 @@ export default function ContactHero() {
                     </p>
 
                     <div className="flex flex-wrap justify-center gap-4">
-                        <a href="tel:+94771234567" className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-white hover:bg-white/20 transition-all">
+                        <a href="tel:+94719629664" className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-white hover:bg-white/20 transition-all">
                             <Phone className="w-4 h-4" />
-                            <span>+94 77 123 4567</span>
+                            <span>+94 71 962 9664</span>
                         </a>
-                        <a href="mailto:hello@letsgoceylon.com" className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-white hover:bg-white/20 transition-all">
+                        <a href="mailto:letsgoceylontours@gmail.com" className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-white hover:bg-white/20 transition-all">
                             <Mail className="w-4 h-4" />
-                            <span>hello@letsgoceylon.com</span>
+                            <span>letsgoceylontours@gmail.com</span>
                         </a>
-                        <a href="https://wa.me/94771234567" className="flex items-center gap-2 px-6 py-3 bg-[#25D366]/20 backdrop-blur-md border border-[#25D366]/30 text-white rounded-full hover:bg-[#25D366]/30 transition-all">
+                        <a href="https://wa.me/94719629664" className="flex items-center gap-2 px-6 py-3 bg-[#25D366]/20 backdrop-blur-md border border-[#25D366]/30 text-white rounded-full hover:bg-[#25D366]/30 transition-all">
                             <MessageCircle className="w-4 h-4" />
                             <span>WhatsApp Us</span>
                         </a>
