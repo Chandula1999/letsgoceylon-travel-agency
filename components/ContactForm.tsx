@@ -20,7 +20,7 @@ export default function ContactForm() {
         e.preventDefault();
         // Construct WhatsApp Message
         const text = `*New Contact Inquiry*%0A%0A*Name:* ${formData.name}%0A*Email:* ${formData.email}%0A*Subject:* ${formData.subject}%0A*Message:* ${formData.message}`;
-        window.open(`https://wa.me/94771234567?text=${text}`, "_blank");
+        window.open(`https://wa.me/94719629664?text=${text}`, "_blank");
     };
 
     return (

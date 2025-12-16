@@ -84,7 +84,7 @@ export default function TaxiFAQ() {
                         Our support team is available 24/7 to assist you.
                     </p>
                     <a
-                        href="https://wa.me/94719629661"
+                        href="https://wa.me/94719629664"
                         target="_blank"
                         className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-600 text-white rounded-xl font-bold hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-600/20"
                     >

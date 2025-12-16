@@ -74,7 +74,7 @@ export default function NewTaxiHero() {
             `⏰ Time: ${formData.time}\n` +
             `🚙 Vehicle: ${VEHICLES.find(v => v.id === formData.vehicle)?.name}`
         );
-        window.open(`https://wa.me/94719629661?text=${message}`, "_blank");
+        window.open(`https://wa.me/94719629664?text=${message}`, "_blank");
     };
 
     return (

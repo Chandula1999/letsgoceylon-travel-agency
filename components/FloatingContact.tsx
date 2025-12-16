@@ -13,7 +13,7 @@ export default function FloatingContact({ position = "right" }: FloatingContactP
 
     return (
         <motion.a
-            href="https://wa.me/94719629661"
+            href="https://wa.me/94719629664"
             target="_blank"
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
