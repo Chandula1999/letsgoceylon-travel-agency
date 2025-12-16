@@ -26,7 +26,7 @@ export async function generateMetadata(
 
     if (!post) {
         return {
-            title: "Post Not Found | Let's Go Ceylon",
+            title: "Post Not Found | Lets Go Ceylon Tours",
         };
     }
 
@@ -34,7 +34,7 @@ export async function generateMetadata(
     const previousImages = (await parent).openGraph?.images || [];
 
     return {
-        title: `${post.title} | Let's Go Ceylon Blog`,
+        title: `${post.title} | Lets Go Ceylon Tours Blog`,
         description: post.excerpt,
         openGraph: {
             title: post.title,

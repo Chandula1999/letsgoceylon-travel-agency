@@ -17,7 +17,7 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://letsgoceylon.com"),
-  title: "LetsGoCeylon | Sri Lanka Travel Agency & Taxi Service",
+  title: "Lets Go Ceylon Tours | Sri Lanka Travel Agency & Taxi Service",
   description: "Experience the magic of Sri Lanka with curated tour packages and reliable taxi services. Book your island adventure today.",
 };
 

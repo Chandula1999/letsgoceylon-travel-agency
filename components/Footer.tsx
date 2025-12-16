@@ -38,8 +38,8 @@ export default function Footer() {
                             {/* Logo Text */}
                             <div className="flex flex-col">
                                 <span className="text-xl font-bold tracking-tight leading-none">
-                                    <span className="bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 bg-clip-text text-transparent">Let's Go</span>
-                                    <span className="bg-gradient-to-r from-cyan-400 via-teal-400 to-emerald-400 bg-clip-text text-transparent ml-1">Ceylon</span>
+                                    <span className="bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 bg-clip-text text-transparent">Lets Go</span>
+                                    <span className="bg-gradient-to-r from-cyan-400 via-teal-400 to-emerald-400 bg-clip-text text-transparent ml-1">Ceylon Tours</span>
                                 </span>
                             </div>
                         </Link>
@@ -143,7 +143,7 @@ export default function Footer() {
                 {/* Bottom Bar */}
                 <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
                     <p className="text-gray-500 text-xs">
-                        © {new Date().getFullYear()} LetsGoCeylon. All rights reserved.
+                        © <span suppressHydrationWarning>{new Date().getFullYear()}</span> Lets Go Ceylon Tours. All rights reserved.
                     </p>
 
                     {/* Payment Trust Signals */}

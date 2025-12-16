@@ -57,7 +57,7 @@ export default function AboutPage() {
                             transition={{ delay: 0.1 }}
                             className="text-xl text-gray-600 leading-relaxed"
                         >
-                            At LetsGoCeylon, our mission is simple: to share the magic of our island home with the world. We strive to create authentic, sustainable, and unforgettable travel experiences that leave a positive impact on both our guests and our local communities.
+                            At Lets Go Ceylon Tours, our mission is simple: to share the magic of our island home with the world. We strive to create authentic, sustainable, and unforgettable travel experiences that leave a positive impact on both our guests and our local communities.
                         </motion.p>
                     </div>
 

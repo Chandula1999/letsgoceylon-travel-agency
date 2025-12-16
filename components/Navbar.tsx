@@ -79,8 +79,8 @@ export default function Navbar() {
                         {/* Logo Text */}
                         <div className="flex flex-col">
                             <span className="text-lg md:text-xl font-bold tracking-tight leading-none">
-                                <span className="bg-gradient-to-r from-amber-200 via-amber-400 to-amber-500 bg-clip-text text-transparent drop-shadow-sm">Let's Go</span>
-                                <span className="bg-gradient-to-r from-cyan-300 via-teal-400 to-emerald-400 bg-clip-text text-transparent ml-1.5 drop-shadow-sm">Ceylon</span>
+                                <span className="bg-gradient-to-r from-amber-200 via-amber-400 to-amber-500 bg-clip-text text-transparent drop-shadow-sm">Lets Go</span>
+                                <span className="bg-gradient-to-r from-cyan-300 via-teal-400 to-emerald-400 bg-clip-text text-transparent ml-1.5 drop-shadow-sm">Ceylon Tours</span>
                             </span>
                         </div>
                     </Link>

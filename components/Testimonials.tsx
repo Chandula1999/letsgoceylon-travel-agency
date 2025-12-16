@@ -17,7 +17,7 @@ const testimonials = [
         name: "Michael Chen",
         location: "Singapore",
         rating: 5,
-        text: "Lets Go Ceylon made our family vacation stress-free and amazing. The vehicle was comfortable, and the itinerary covered all the best spots. Highly recommended!",
+        text: "Lets Go Ceylon Tours made our family vacation stress-free and amazing. The vehicle was comfortable, and the itinerary covered all the best spots. Highly recommended!",
     },
     {
         id: 3,

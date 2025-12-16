@@ -266,7 +266,7 @@ export const blogPosts: BlogPost[] = [
             <p>This is the tricky part. Tickets go on sale 30 days in advance and sell out in <em>minutes</em> for the morning trains (8:47 AM from Kandy).</p>
             <ul>
                 <li><strong>Online:</strong> You can try the official Sri Lanka Railways website, but it can be glitchy.</li>
-                <li><strong>Agent:</strong> It's easiest to ask us (Let's Go Ceylon) or your hotel to book them for you for a small fee.</li>
+                <li><strong>Agent:</strong> It's easiest to ask us (Lets Go Ceylon Tours) or your hotel to book them for you for a small fee.</li>
                 <li><strong>Last Minute?</strong> If reserved seats are sold out, you can buy a normal ticket on the day at the station. BUT, you will likely have to stand for the whole 7 hours in a packed carriage.</li>
             </ul>
 
@@ -303,7 +303,7 @@ export const blogPosts: BlogPost[] = [
         content: `
             <p class="lead">Planning a trip to Sri Lanka in 2025? Whether you're a budget backpacker, a mid-range explorer, or a luxury seeker, this comprehensive guide breaks down the true cost of travel in the "Pearl of the Indian Ocean."</p>
 
-            <p>One of the most frequent questions we receive at Let's Go Ceylon is: <strong>"Is Sri Lanka expensive to visit?"</strong> The answer is a resounding <strong>no</strong> – provided you know how to plan. Even with global inflation, Sri Lanka remains one of the most value-for-money destinations in South Asia. In 2025, you can find everything from $10 beachfront hostels to $800 private colonial villas.</p>
+            <p>One of the most frequent questions we receive at Lets Go Ceylon Tours is: <strong>"Is Sri Lanka expensive to visit?"</strong> The answer is a resounding <strong>no</strong> – provided you know how to plan. Even with global inflation, Sri Lanka remains one of the most value-for-money destinations in South Asia. In 2025, you can find everything from $10 beachfront hostels to $800 private colonial villas.</p>
 
             <p>This guide will help you budget effectively for your trip, covering accommodation, transport, food, and activities. We've updated all prices to reflect the latest 2025 economic conditions.</p>
 
