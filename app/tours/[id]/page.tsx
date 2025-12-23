@@ -8,6 +8,7 @@ import TourItinerary from "@/components/TourItinerary";
 import { Check, Calendar, Info, ShieldCheck, CreditCard, X } from "lucide-react";
 import { motion } from "framer-motion";
 import { TOURS } from "@/data/tours";
+import Link from "next/link";
 
 export default function SingleTourPage() {
     const params = useParams();
@@ -175,34 +176,16 @@ export default function SingleTourPage() {
                             >
                                 <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-emerald-400 to-teal-500" />
 
-                                <div className="mb-8">
-                                    <span className="text-gray-500 text-sm uppercase tracking-wider font-medium">Starting from</span>
-                                    <div className="flex items-baseline gap-2 mt-1">
-                                        <span className="text-5xl font-serif font-bold text-gray-900">${tour.price}</span>
-                                        <span className="text-gray-500 font-light">/ person</span>
-                                    </div>
-                                </div>
+                                {/* Price section removed */}
 
-                                <div className="space-y-4 mb-8">
-                                    <div className="flex items-center gap-4 text-gray-600 bg-gray-50/80 p-4 rounded-2xl hover:bg-emerald-50/50 transition-colors cursor-pointer border border-transparent hover:border-emerald-100">
-                                        <Calendar className="w-6 h-6 text-emerald-500" />
-                                        <div>
-                                            <span className="block text-xs uppercase tracking-wider text-gray-400 font-bold">Dates</span>
-                                            <span className="font-medium">Select Availability</span>
-                                        </div>
-                                    </div>
-                                    <div className="flex items-center gap-4 text-gray-600 bg-gray-50/80 p-4 rounded-2xl hover:bg-emerald-50/50 transition-colors cursor-pointer border border-transparent hover:border-emerald-100">
-                                        <Info className="w-6 h-6 text-emerald-500" />
-                                        <div>
-                                            <span className="block text-xs uppercase tracking-wider text-gray-400 font-bold">Confirmation</span>
-                                            <span className="font-medium">Instant Booking</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                {/* Price and Dates sections removed */}
 
-                                <button className="w-full bg-gray-900 text-white font-medium py-5 rounded-2xl hover:bg-emerald-600 transition-all duration-300 shadow-lg hover:shadow-emerald-200 transform hover:-translate-y-1">
+                                <Link
+                                    href="/contact"
+                                    className="w-full block text-center bg-gray-900 text-white font-medium py-5 rounded-2xl hover:bg-emerald-600 transition-all duration-300 shadow-lg hover:shadow-emerald-200 transform hover:-translate-y-1"
+                                >
                                     Book This Experience
-                                </button>
+                                </Link>
 
                                 <p className="text-center text-xs text-gray-400 mt-6 font-light">
                                     Secure your spot today. No hidden fees.
