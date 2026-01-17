@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, MapPin, Star } from "lucide-react";
+import { getAssetPath } from "@/lib/assetHelpers";
 
 export default function Hero() {
     return (
@@ -16,7 +17,7 @@ export default function Hero() {
                     playsInline
                     className="absolute top-0 left-0 w-full h-full object-cover"
                 >
-                    <source src="/assets/beach.mp4" type="video/mp4" />
+                    <source src={getAssetPath("hero-beach-video")} type="video/mp4" />
                 </video>
                 {/* Sophisticated Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-black/60" />

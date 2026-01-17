@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Search, MapPin, Clock, Star } from "lucide-react";
 import Image from "next/image";
+import { getAssetPath } from "@/lib/assetHelpers";
 
 interface TourHeroProps {
     title?: string;
@@ -43,7 +44,7 @@ export default function TourHero({ title, image, location, duration, rating, rev
                             playsInline
                             className="w-full h-full object-cover"
                         >
-                            <source src="/assets/beach.mp4" type="video/mp4" />
+                            <source src={getAssetPath("hero-beach-video")} type="video/mp4" />
                         </video>
                     </div>
                 )}

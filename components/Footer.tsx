@@ -15,6 +15,7 @@ import {
     CreditCard,
     Globe
 } from "lucide-react";
+import { getAssetPath } from "@/lib/assetHelpers";
 
 export default function Footer() {
     return (
@@ -28,7 +29,7 @@ export default function Footer() {
                             {/* Logo Icon */}
                             <div className="w-12 h-12 rounded-full overflow-hidden shadow-lg shadow-amber-500/20 group-hover:shadow-amber-500/40 transition-all duration-300">
                                 <Image
-                                    src="/assets/logo.png"
+                                    src={getAssetPath("logo-main")}
                                     alt="Let's Go Ceylon Logo"
                                     width={48}
                                     height={48}

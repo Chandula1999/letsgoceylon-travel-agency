@@ -1,0 +1,402 @@
+{
+    "tours": [
+        {
+            "id": "tour-pasikuda-beach",
+            "path": "/assets/pasikuda beach.jpg",
+            "alt": "Pristine Pasikuda beach with crystal clear turquoise waters and golden sand - Eastern Blue Bliss tour destination",
+            "category": "tours",
+            "usedIn": [
+                "tours",
+                "Eastern Blue Bliss"
+            ]
+        },
+        {
+            "id": "tour-weligama-beach",
+            "path": "/assets/weligama beach.jpg",
+            "alt": "Weligama beach with surfing waves and palm trees - Southern Sands Voyage destination",
+            "category": "tours",
+            "usedIn": [
+                "tours",
+                "Southern Sands Voyage"
+            ]
+        },
+        {
+            "id": "tour-kalpitiya-beach",
+            "path": "/assets/Kalpitiya beach.jpg",
+            "alt": "Kalpitiya beach at sunrise with calm waters perfect for kitesurfing - Northern beaches tour",
+            "category": "tours",
+            "usedIn": [
+                "tours",
+                "Sunrise Shores Tour"
+            ]
+        },
+        {
+            "id": "tour-kandy",
+            "path": "/assets/kandy.jpg",
+            "alt": "Scenic view of Kandy city with lush green hills and traditional architecture - Cultural tour Sri Lanka",
+            "category": "tours",
+            "usedIn": [
+                "tours",
+                "Scenic Beauty of Sri Lanka"
+            ]
+        },
+        {
+            "id": "tour-sigiriya",
+            "path": "/assets/sigiriya srilanka.jpg",
+            "alt": "Aerial view of Sigiriya Lion Rock fortress rising from jungle - UNESCO World Heritage Site",
+            "category": "tours",
+            "usedIn": [
+                "tours",
+                "Heritage Discovery Tour"
+            ]
+        },
+        {
+            "id": "tour-anuradhapura",
+            "path": "/assets/Anuradhapura Sri Lanka.jpg",
+            "alt": "Ancient Buddhist stupa ruins at Anuradhapura sacred city - Historical Journey tour",
+            "category": "tours",
+            "usedIn": [
+                "tours",
+                "A Historical Journey"
+            ]
+        },
+        {
+            "id": "tour-hatton",
+            "path": "/assets/hatton.jpg",
+            "alt": "Mountain hiking adventure in Hatton tea country with misty peaks - Beyond Boundaries tour",
+            "category": "tours",
+            "usedIn": [
+                "tours",
+                "Beyond Boundaries"
+            ]
+        },
+        {
+            "id": "tour-mirissa-whales",
+            "path": "/assets/whales watching mirissa.jpg",
+            "alt": "Whale watching boat tour in Mirissa tropical waters - Southern Explorer adventure",
+            "category": "tours",
+            "usedIn": [
+                "tours",
+                "The Southern Explorer"
+            ]
+        },
+        {
+            "id": "tour-wilpattu",
+            "path": "/assets/wilpattu national park.jpg",
+            "alt": "Wilpattu National Park wilderness with natural lakes and wildlife safari opportunities",
+            "category": "tours",
+            "usedIn": [
+                "tours"
+            ]
+        },
+        {
+            "id": "tour-leopard",
+            "path": "/assets/leopard.jpg",
+            "alt": "Sri Lankan leopard spotted during wildlife safari - Yala National Park",
+            "category": "tours",
+            "usedIn": [
+                "tours"
+            ]
+        },
+        {
+            "id": "tour-minneriya",
+            "path": "/assets/Minneriya National  Park.jpg",
+            "alt": "Elephant herd gathering at Minneriya National Park during the great gathering season",
+            "category": "tours",
+            "usedIn": [
+                "tours"
+            ]
+        },
+        {
+            "id": "tour-hot-air-balloon",
+            "path": "/assets/Hot Air Balloon Ride in Habarana.jpg",
+            "alt": "Hot air balloon ride over Habarana countryside at sunrise - Romantic adventure tour",
+            "category": "tours",
+            "usedIn": [
+                "tours"
+            ]
+        },
+        {
+            "id": "tour-galle-fort",
+            "path": "/assets/Galle Dutch Fort.jpg",
+            "alt": "Historic Galle Dutch Fort ramparts overlooking the ocean - UNESCO Heritage Site",
+            "category": "tours",
+            "usedIn": [
+                "tours"
+            ]
+        },
+        {
+            "id": "tour-bentota",
+            "path": "/assets/bentota.jpg",
+            "alt": "Bentota beach sunset paradise with swaying palm trees - Romantic beach getaway",
+            "category": "tours",
+            "usedIn": [
+                "tours"
+            ]
+        },
+        {
+            "id": "tour-nuwara-eliya",
+            "path": "/assets/nuwara eliya srilanka.jpg",
+            "alt": "Nuwara Eliya tea plantation hills with misty mountains and green tea estates",
+            "category": "tours",
+            "usedIn": [
+                "tours"
+            ]
+        },
+        {
+            "id": "tour-ella-train",
+            "path": "/assets/ella train srilanka.jpg",
+            "alt": "Scenic train ride through Ella with Nine Arch Bridge and tea country views",
+            "category": "tours",
+            "usedIn": [
+                "tours"
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "id": "category-wildlife",
+            "path": "/assets/categories/wildlife.jpg",
+            "alt": "Wildlife safari category - Leopards and elephants in Sri Lankan national parks",
+            "category": "category",
+            "usedIn": [
+                "tour-categories"
+            ]
+        },
+        {
+            "id": "category-family",
+            "path": "/assets/categories/Family category.jpg",
+            "alt": "Family tours category - Fun activities and destinations for families with children",
+            "category": "category",
+            "usedIn": [
+                "tour-categories"
+            ]
+        },
+        {
+            "id": "category-adventure",
+            "path": "/assets/categories/adventure.jpg",
+            "alt": "Adventure tours category - Hiking, surfing, and extreme sports in Sri Lanka",
+            "category": "category",
+            "usedIn": [
+                "tour-categories"
+            ]
+        },
+        {
+            "id": "category-cultural",
+            "path": "/assets/categories/kovil.jpg",
+            "alt": "Cultural tours category - Temples, heritage sites, and traditional experiences",
+            "category": "category",
+            "usedIn": [
+                "tour-categories"
+            ]
+        },
+        {
+            "id": "category-ayurvedic",
+            "path": "/assets/categories/ayurvedic.jpg",
+            "alt": "Ayurvedic wellness category - Traditional healing and spa retreats",
+            "category": "category",
+            "usedIn": [
+                "tour-categories"
+            ]
+        },
+        {
+            "id": "category-honeymoon",
+            "path": "/assets/categories/honeymoon.jpg",
+            "alt": "Honeymoon tours category - Romantic destinations and couple experiences",
+            "category": "category",
+            "usedIn": [
+                "tour-categories"
+            ]
+        },
+        {
+            "id": "category-golf",
+            "path": "/assets/categories/golf.jpg",
+            "alt": "Golf tours category - Premium golf courses and golfing holidays in Sri Lanka",
+            "category": "category",
+            "usedIn": [
+                "tour-categories"
+            ]
+        },
+        {
+            "id": "category-cultural-heritage",
+            "path": "/assets/categories/cultural.jpg",
+            "alt": "Cultural heritage category - Ancient cities and archaeological wonders",
+            "category": "category",
+            "usedIn": [
+                "tour-categories"
+            ]
+        },
+        {
+            "id": "category-beach",
+            "path": "/assets/categories/beach.jpg",
+            "alt": "Beach tours category - Coastal paradises and tropical beach getaways",
+            "category": "category",
+            "usedIn": [
+                "tour-categories"
+            ]
+        }
+    ],
+    "vehicles": [
+        {
+            "id": "vehicle-sedan",
+            "path": "/assets/sedan.png",
+            "alt": "Comfortable sedan taxi for up to 3 passengers - Air-conditioned airport transfer",
+            "category": "vehicles",
+            "usedIn": [
+                "taxi-pricing"
+            ]
+        },
+        {
+            "id": "vehicle-minivan",
+            "path": "/assets/minivan.png",
+            "alt": "Spacious minivan taxi for families and groups up to 7 passengers",
+            "category": "vehicles",
+            "usedIn": [
+                "taxi-pricing"
+            ]
+        },
+        {
+            "id": "vehicle-high-roof",
+            "path": "/assets/high_roof-.png",
+            "alt": "High roof van for large groups up to 10 passengers with luggage space",
+            "category": "vehicles",
+            "usedIn": [
+                "taxi-pricing"
+            ]
+        }
+    ],
+    "blog": [
+        {
+            "id": "blog-hidden-beaches",
+            "path": "/blog/hidden-beaches.png",
+            "alt": "Discover Sri Lanka's hidden beaches - Secret coastal paradises off the beaten path",
+            "category": "blog",
+            "usedIn": [
+                "blog-posts"
+            ]
+        },
+        {
+            "id": "blog-cultural-triangle",
+            "path": "/blog/cultural-triangle.png",
+            "alt": "Exploring Sri Lanka's Cultural Triangle - Ancient cities and heritage sites guide",
+            "category": "blog",
+            "usedIn": [
+                "blog-posts"
+            ]
+        },
+        {
+            "id": "blog-travel-cost",
+            "path": "/blog/travel-cost.png",
+            "alt": "Budget guide for Sri Lanka travel - Cost breakdown and money-saving tips",
+            "category": "blog",
+            "usedIn": [
+                "blog-posts"
+            ]
+        },
+        {
+            "id": "blog-best-time",
+            "path": "/blog/best-time-weather.png",
+            "alt": "Best time to visit Sri Lanka - Weather patterns and seasonal travel guide",
+            "category": "blog",
+            "usedIn": [
+                "blog-posts"
+            ]
+        },
+        {
+            "id": "blog-itinerary",
+            "path": "/blog/10-day-itinerary.png",
+            "alt": "Perfect 10-day Sri Lanka itinerary - Complete travel plan for first-time visitors",
+            "category": "blog",
+            "usedIn": [
+                "blog-posts"
+            ]
+        },
+        {
+            "id": "blog-safety",
+            "path": "/blog/safety-update.png",
+            "alt": "Sri Lanka travel safety update - Current safety tips and travel advisories",
+            "category": "blog",
+            "usedIn": [
+                "blog-posts"
+            ]
+        },
+        {
+            "id": "blog-luxury",
+            "path": "/blog/luxury-travel.png",
+            "alt": "Luxury travel experiences in Sri Lanka - Premium hotels and exclusive tours",
+            "category": "blog",
+            "usedIn": [
+                "blog-posts"
+            ]
+        },
+        {
+            "id": "blog-gallery-food",
+            "path": "/blog/gallery-food.png",
+            "alt": "Sri Lankan cuisine and traditional food - Authentic culinary experiences",
+            "category": "blog-gallery",
+            "usedIn": [
+                "blog-galleries"
+            ]
+        },
+        {
+            "id": "blog-gallery-train",
+            "path": "/blog/gallery-train.png",
+            "alt": "Scenic train journeys in Sri Lanka - Hill country railway experience",
+            "category": "blog-gallery",
+            "usedIn": [
+                "blog-galleries"
+            ]
+        },
+        {
+            "id": "blog-gallery-beach",
+            "path": "/blog/gallery-beach.png",
+            "alt": "Beautiful beaches of Sri Lanka - Coastal photography and beach destinations",
+            "category": "blog-gallery",
+            "usedIn": [
+                "blog-galleries"
+            ]
+        }
+    ],
+    "videos": [
+        {
+            "id": "hero-beach-video",
+            "path": "/assets/beach.mp4",
+            "alt": "Beautiful Sri Lankan beach waves - Tropical paradise video background",
+            "category": "videos",
+            "usedIn": [
+                "hero",
+                "tour-hero"
+            ]
+        }
+    ],
+    "branding": [
+        {
+            "id": "logo-main",
+            "path": "/assets/logo.png",
+            "alt": "Let's Go Ceylon - Sri Lanka travel agency logo",
+            "category": "branding",
+            "usedIn": [
+                "navbar",
+                "footer"
+            ]
+        },
+        {
+            "id": "logo-icon",
+            "path": "/logo-icon.png",
+            "alt": "Let's Go Ceylon icon logo",
+            "category": "branding",
+            "usedIn": [
+                "favicon"
+            ]
+        },
+        {
+            "id": "logo-full",
+            "path": "/logo.png",
+            "alt": "Let's Go Ceylon full logo",
+            "category": "branding",
+            "usedIn": [
+                "public-assets"
+            ]
+        }
+    ]
+}

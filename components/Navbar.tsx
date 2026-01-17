@@ -7,6 +7,7 @@ import { Menu, X, Phone, ArrowRight, Sparkles } from "lucide-react";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
+import { getAssetPath } from "@/lib/assetHelpers";
 
 const navLinks = [
     { name: "Home", href: "/" },
@@ -70,7 +71,7 @@ export default function Navbar() {
                         {/* Logo Icon */}
                         <div className="relative w-11 h-11 md:w-14 md:h-14 rounded-full overflow-hidden ring-2 ring-amber-400/50 group-hover:ring-amber-400 transition-all duration-300 shadow-lg shadow-amber-500/20">
                             <img
-                                src="/assets/logo.png"
+                                src={getAssetPath("logo-main")}
                                 alt="Let's Go Ceylon Logo"
                                 className="w-full h-full object-cover"
                             />

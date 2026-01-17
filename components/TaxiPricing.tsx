@@ -3,11 +3,12 @@
 import { motion } from "framer-motion";
 import { Check, ArrowRight } from "lucide-react";
 import Image from "next/image";
+import { getAssetPath } from "@/lib/assetHelpers";
 
 const VEHICLES = [
     {
         name: "Economy Sedan",
-        image: "/assets/sedan.png",
+        image: getAssetPath("vehicle-sedan"),
         price: "120",
         pax: 3,
         luggage: 2,
@@ -16,7 +17,7 @@ const VEHICLES = [
     },
     {
         name: "Mini Van",
-        image: "/assets/minivan.png",
+        image: getAssetPath("vehicle-minivan"),
         price: "145",
         pax: 6,
         luggage: 4,
@@ -25,7 +26,7 @@ const VEHICLES = [
     },
     {
         name: "Large Van",
-        image: "/assets/high_roof-.png",
+        image: getAssetPath("vehicle-high-roof"),
         price: "160",
         pax: 10,
         luggage: 7,
