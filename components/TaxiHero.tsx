@@ -181,8 +181,8 @@ export default function TaxiHero({
                                 type="button"
                                 onClick={() => setActiveTab('airport')}
                                 className={`px-3 py-2 rounded-xl text-xs md:text-sm font-semibold transition-all flex items-center gap-1.5 md:gap-2 whitespace-nowrap min-h-[44px] ${activeTab === 'airport'
-                                        ? 'bg-slate-900 text-white shadow-md'
-                                        : 'bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200'
+                                    ? 'bg-slate-900 text-white shadow-md'
+                                    : 'bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200'
                                     }`}
                             >
                                 <Plane className="w-3.5 h-3.5 md:w-4 md:h-4 text-emerald-400 shrink-0" />
@@ -193,8 +193,8 @@ export default function TaxiHero({
                                 type="button"
                                 onClick={() => setActiveTab('oneway')}
                                 className={`px-3 py-2 rounded-xl text-xs md:text-sm font-semibold transition-all flex items-center gap-1.5 md:gap-2 whitespace-nowrap min-h-[44px] ${activeTab === 'oneway'
-                                        ? 'bg-slate-900 text-white shadow-md'
-                                        : 'bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200'
+                                    ? 'bg-slate-900 text-white shadow-md'
+                                    : 'bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200'
                                     }`}
                             >
                                 <ArrowRight className="w-3.5 h-3.5 md:w-4 md:h-4 text-amber-500 shrink-0" />
@@ -205,8 +205,8 @@ export default function TaxiHero({
                                 type="button"
                                 onClick={() => setActiveTab('roundtrip')}
                                 className={`px-3 py-2 rounded-xl text-xs md:text-sm font-semibold transition-all flex items-center gap-1.5 md:gap-2 whitespace-nowrap min-h-[44px] ${activeTab === 'roundtrip'
-                                        ? 'bg-slate-900 text-white shadow-md'
-                                        : 'bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200'
+                                    ? 'bg-slate-900 text-white shadow-md'
+                                    : 'bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200'
                                     }`}
                             >
                                 <ArrowRightLeft className="w-3.5 h-3.5 md:w-4 md:h-4 text-emerald-500 shrink-0" />
@@ -217,8 +217,8 @@ export default function TaxiHero({
                                 type="button"
                                 onClick={() => setActiveTab('hourly')}
                                 className={`px-3 py-2 rounded-xl text-xs md:text-sm font-semibold transition-all flex items-center gap-1.5 md:gap-2 whitespace-nowrap min-h-[44px] ${activeTab === 'hourly'
-                                        ? 'bg-slate-900 text-white shadow-md'
-                                        : 'bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200'
+                                    ? 'bg-slate-900 text-white shadow-md'
+                                    : 'bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200'
                                     }`}
                             >
                                 <Clock className="w-3.5 h-3.5 md:w-4 md:h-4 text-indigo-500 shrink-0" />
@@ -229,8 +229,8 @@ export default function TaxiHero({
                                 type="button"
                                 onClick={() => setActiveTab('multiday')}
                                 className={`px-3 py-2 rounded-xl text-xs md:text-sm font-semibold transition-all flex items-center gap-1.5 md:gap-2 whitespace-nowrap min-h-[44px] ${activeTab === 'multiday'
-                                        ? 'bg-slate-900 text-white shadow-md'
-                                        : 'bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200'
+                                    ? 'bg-slate-900 text-white shadow-md'
+                                    : 'bg-slate-100 text-slate-600 hover:text-slate-900 hover:bg-slate-200'
                                     }`}
                             >
                                 <Sparkles className="w-3.5 h-3.5 md:w-4 md:h-4 text-amber-400 shrink-0" />
@@ -373,8 +373,8 @@ export default function TaxiHero({
                                         type="button"
                                         onClick={() => setActiveVehicle('sedan')}
                                         className={`flex flex-col p-3 rounded-xl border text-left transition-all min-h-[44px] ${activeVehicle === 'sedan'
-                                                ? 'bg-emerald-900 text-white border-emerald-600 shadow-md ring-2 ring-emerald-500/30'
-                                                : 'bg-slate-50 hover:bg-slate-100 text-slate-900 border-slate-200'
+                                            ? 'bg-emerald-900 text-white border-emerald-600 shadow-md ring-2 ring-emerald-500/30'
+                                            : 'bg-slate-50 hover:bg-slate-100 text-slate-900 border-slate-200'
                                             }`}
                                     >
                                         <span className="text-sm font-bold">Sedan</span>
@@ -387,8 +387,8 @@ export default function TaxiHero({
                                         type="button"
                                         onClick={() => setActiveVehicle('suv')}
                                         className={`flex flex-col p-3 rounded-xl border text-left transition-all min-h-[44px] ${activeVehicle === 'suv'
-                                                ? 'bg-emerald-900 text-white border-emerald-600 shadow-md ring-2 ring-emerald-500/30'
-                                                : 'bg-slate-50 hover:bg-slate-100 text-slate-900 border-slate-200'
+                                            ? 'bg-emerald-900 text-white border-emerald-600 shadow-md ring-2 ring-emerald-500/30'
+                                            : 'bg-slate-50 hover:bg-slate-100 text-slate-900 border-slate-200'
                                             }`}
                                     >
                                         <span className="text-sm font-bold">4x4 SUV</span>
@@ -401,8 +401,8 @@ export default function TaxiHero({
                                         type="button"
                                         onClick={() => setActiveVehicle('kdh')}
                                         className={`flex flex-col p-3 rounded-xl border text-left transition-all min-h-[44px] ${activeVehicle === 'kdh'
-                                                ? 'bg-emerald-900 text-white border-emerald-600 shadow-md ring-2 ring-emerald-500/30'
-                                                : 'bg-slate-50 hover:bg-slate-100 text-slate-900 border-slate-200'
+                                            ? 'bg-emerald-900 text-white border-emerald-600 shadow-md ring-2 ring-emerald-500/30'
+                                            : 'bg-slate-50 hover:bg-slate-100 text-slate-900 border-slate-200'
                                             }`}
                                     >
                                         <span className="text-sm font-bold">Luxury Van</span>
@@ -415,8 +415,8 @@ export default function TaxiHero({
                                         type="button"
                                         onClick={() => setActiveVehicle('highroof')}
                                         className={`flex flex-col p-3 rounded-xl border text-left transition-all min-h-[44px] ${activeVehicle === 'highroof'
-                                                ? 'bg-emerald-900 text-white border-emerald-600 shadow-md ring-2 ring-emerald-500/30'
-                                                : 'bg-slate-50 hover:bg-slate-100 text-slate-900 border-slate-200'
+                                            ? 'bg-emerald-900 text-white border-emerald-600 shadow-md ring-2 ring-emerald-500/30'
+                                            : 'bg-slate-50 hover:bg-slate-100 text-slate-900 border-slate-200'
                                             }`}
                                     >
                                         <span className="text-sm font-bold">High-Roof</span>
@@ -492,14 +492,14 @@ export default function TaxiHero({
                                         <MessageSquare className="w-4 h-4 fill-slate-950 shrink-0" />
                                         Book via WhatsApp
                                     </button>
-                                    <button
+                                    {/* <button
                                         type="button"
                                         onClick={onOpenModal}
                                         className="inline-flex items-center justify-center px-4 py-2.5 rounded-xl bg-amber-400 text-slate-950 font-bold text-xs md:text-sm hover:bg-amber-300 shadow transition-all whitespace-nowrap gap-1 min-h-[44px]"
                                     >
                                         <span>Reserve Online</span>
                                         <ArrowRight className="w-4 h-4 shrink-0" />
-                                    </button>
+                                    </button> */}
                                 </div>
                             </div>
 

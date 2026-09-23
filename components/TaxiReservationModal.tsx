@@ -62,7 +62,7 @@ export default function TaxiReservationModal({
     return (
         <div className="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-4">
             <div className="bg-white rounded-3xl max-w-lg w-full max-h-[90vh] overflow-y-auto p-6 md:p-8 shadow-2xl space-y-6 text-slate-900 relative border border-slate-100 animate-in fade-in zoom-in duration-200">
-                
+
                 {/* Header */}
                 <div className="flex items-center justify-between pb-3 border-b border-slate-100">
                     <div className="flex items-center gap-2">
