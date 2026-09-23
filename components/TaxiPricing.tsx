@@ -109,7 +109,7 @@ export default function TaxiPricing() {
                                 </ul>
                             </div>
 
-                            <a
+                            {/* <a
                                 href="/taxi"
                                 className={`w-full py-4 rounded-xl font-bold text-lg transition-all flex items-center justify-center gap-2 ${vehicle.recommended
                                     ? "bg-emerald-600 text-white hover:bg-emerald-700 shadow-lg shadow-emerald-600/30"
@@ -117,7 +117,7 @@ export default function TaxiPricing() {
                                     }`}>
                                 Book Now
                                 <ArrowRight className="w-5 h-5" />
-                            </a>
+                            </a> */}
                         </motion.div>
                     ))}
                 </div>

@@ -265,13 +265,13 @@ export default function NewTaxiHero() {
                                             >
                                                 <ChevronLeft className="w-5 h-5" />
                                             </button>
-                                            <button
+                                            {/* <button
                                                 onClick={handleBook}
                                                 className="flex-1 py-4 bg-secondary hover:bg-secondary/90 text-white rounded-xl font-bold text-lg flex items-center justify-center gap-2 transition-all shadow-lg shadow-secondary/20"
                                             >
                                                 Book Now
                                                 <ChevronRight className="w-5 h-5" />
-                                            </button>
+                                            </button> */}
                                         </div>
                                     </motion.div>
                                 )}

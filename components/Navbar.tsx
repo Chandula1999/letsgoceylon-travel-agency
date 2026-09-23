@@ -120,7 +120,7 @@ export default function Navbar() {
                         })}
 
                         {/* CTA Button with Shimmer */}
-                        <motion.div
+                        {/* <motion.div
                             initial={{ opacity: 0, x: 20 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ delay: 0.5 }}
@@ -130,14 +130,14 @@ export default function Navbar() {
                                 href="/contact"
                                 className="hidden lg:inline-flex items-center gap-2 relative overflow-hidden bg-gradient-to-r from-amber-500 to-amber-600 text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-lg shadow-amber-500/30 hover:shadow-amber-500/50 hover:scale-105 active:scale-95 transition-all duration-300 group"
                             >
-                                {/* Shimmer Effect */}
+                                // Shimmer Effect
                                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
 
                                 <Sparkles className="w-4 h-4 relative z-10" />
                                 <span className="relative z-10">Book Now</span>
                                 <ArrowRight className="w-4 h-4 relative z-10 group-hover:translate-x-1 transition-transform" />
                             </Link>
-                        </motion.div>
+                        </motion.div> */}
                     </div>
 
                     {/* Mobile Menu Button */}
