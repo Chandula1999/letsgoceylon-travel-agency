@@ -1,97 +1,91 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { Plus, Minus, MessageCircle } from "lucide-react";
+import { ChevronDown, HelpCircle } from "lucide-react";
 
-const FAQS = [
+export interface FaqItem {
+    id: number;
+    question: string;
+    answer: string;
+}
+
+const FAQS_DATA: FaqItem[] = [
     {
-        question: "How do I book a Sri Lanka Taxi Service for my trip?",
-        answer: "Booking is easy! Simply use our online form above or contact us via WhatsApp. We offer reliable Sri Lanka taxi services for airport transfers, day trips, and multi-day tours across the island."
+        id: 1,
+        question: "How will I meet my driver at Bandaranaike International Airport (CMB)?",
+        answer: "After clearing Sri Lanka immigration, luggage collection, and custom gates, walk into the main arrival lobby. Our representative or your assigned chauffeur guide will be standing at Official Airport Counter 14 holding a prominent name-board with your full name. You will also receive their mobile number and WhatsApp link 12 hours prior to landing."
     },
     {
-        question: "Do you provide Airport Transfers from Bandaranaike International Airport?",
-        answer: "Yes, we specialize in 24/7 airport transfers from Bandaranaike International Airport (CMB) to any destination in Sri Lanka. Our drivers track your flight to ensure timely pickups."
+        id: 2,
+        question: "What happens if my international flight to Colombo is delayed?",
+        answer: "We actively monitor all incoming flight schedules via live radar telemetry. Whether your flight lands 30 minutes early or 3 hours late, your chauffeur will adjust accordingly. We provide 90 minutes of complimentary waiting time starting strictly from the actual recorded wheel-touchdown time."
     },
     {
-        question: "Are your Taxi Rates fixed or metered?",
-        answer: "We offer transparent, fixed taxi rates with no hidden charges. The price you are quoted includes fuel, driver fees, and highway tolls. Please note that for short-distance travel (below 100km), rates may be higher than the standard per-km price."
+        id: 3,
+        question: "Are highway expressway toll fees included in the quoted fare?",
+        answer: "Yes, 100%. All Katunayake Expressway (E03), Central Expressway (E04), and Southern Expressway (E01) toll booth electronic card payments are fully absorbed by CeylonFleet. You will never be asked to pay cash at any toll gate."
     },
     {
-        question: "Can I hire a Private Driver for a multi-day tour?",
-        answer: "Absolutely! Hiring a private driver is the best way to explore Sri Lanka. We provide comfortable vehicles and experienced English-speaking drivers for custom multi-day itineraries."
-    },
-    {
-        question: "Do you offer long-distance trips like Colombo to Kandy or Ella?",
-        answer: "Yes, we cover all major routes including Colombo to Kandy, Ella, Galle, and Sigiriya. Enjoy a comfortable ride in our modern fleet of sedans and vans."
+        id: 4,
+        question: "How does chauffeur accommodation work on multi-day custom tours?",
+        answer: "Most 4-star and 5-star tourist hotels in Sri Lanka provide complimentary driver quarters and food. However, if you choose boutique villas or private Airbnb rentals without driver quarters, our daily multi-day hire rate already covers your driver's allowance, so you have zero unexpected expenses."
     }
 ];
 
 export default function TaxiFAQ() {
-    const [openIndex, setOpenIndex] = useState<number | null>(0);
+    const [openId, setOpenId] = useState<number | null>(1);
+
+    const toggleFaq = (id: number) => {
+        setOpenId(openId === id ? null : id);
+    };
 
     return (
-        <section className="py-24 bg-gradient-to-b from-gray-50 to-emerald-50/50">
-            <div className="container mx-auto px-4 max-w-3xl">
+        <section className="w-full py-20 bg-slate-50 border-t border-slate-200">
+            <div className="max-w-4xl mx-auto px-4 md:px-6">
+                
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    <span className="text-xs font-bold uppercase tracking-widest text-amber-600 block mb-1">
                         Frequently Asked Questions
+                    </span>
+                    <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900">
+                        Everything You Need to Know Before You Land
                     </h2>
-                    <p className="text-gray-600">
-                        Everything you need to know about our <span className="font-semibold text-emerald-600">Sri Lanka Taxi Service</span>.
-                    </p>
                 </div>
 
-                <div className="space-y-4 mb-12">
-                    {FAQS.map((faq, index) => (
-                        <div
-                            key={index}
-                            className="bg-white rounded-2xl border border-gray-200 overflow-hidden"
-                        >
-                            <button
-                                onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                                className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-gray-50 transition-colors"
+                <div className="space-y-4">
+                    {FAQS_DATA.map((faq) => {
+                        const isOpen = openId === faq.id;
+                        return (
+                            <div 
+                                key={faq.id}
+                                className="rounded-2xl bg-white border border-slate-200 shadow-sm overflow-hidden transition-all"
                             >
-                                <span className="font-semibold text-gray-900">{faq.question}</span>
-                                {openIndex === index ? (
-                                    <Minus className="w-5 h-5 text-emerald-600 flex-shrink-0" />
-                                ) : (
-                                    <Plus className="w-5 h-5 text-gray-400 flex-shrink-0" />
+                                <button
+                                    type="button"
+                                    onClick={() => toggleFaq(faq.id)}
+                                    className="w-full p-5 text-left font-bold text-slate-900 text-sm md:text-base flex items-center justify-between hover:bg-slate-50 transition-colors gap-4"
+                                >
+                                    <span className="flex items-center gap-3">
+                                        <HelpCircle className="w-4 h-4 text-emerald-600 shrink-0" />
+                                        {faq.question}
+                                    </span>
+                                    <ChevronDown 
+                                        className={`w-5 h-5 text-slate-400 transition-transform duration-300 shrink-0 ${
+                                            isOpen ? "rotate-180 text-emerald-600" : ""
+                                        }`} 
+                                    />
+                                </button>
+
+                                {isOpen && (
+                                    <div className="px-5 pb-5 pt-1 text-xs md:text-sm text-slate-600 leading-relaxed border-t border-slate-100 bg-slate-50/50">
+                                        {faq.answer}
+                                    </div>
                                 )}
-                            </button>
-                            <AnimatePresence>
-                                {openIndex === index && (
-                                    <motion.div
-                                        initial={{ height: 0, opacity: 0 }}
-                                        animate={{ height: "auto", opacity: 1 }}
-                                        exit={{ height: 0, opacity: 0 }}
-                                        transition={{ duration: 0.3 }}
-                                    >
-                                        <div className="px-6 pb-6 text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
-                                            {faq.answer}
-                                        </div>
-                                    </motion.div>
-                                )}
-                            </AnimatePresence>
-                        </div>
-                    ))}
+                            </div>
+                        );
+                    })}
                 </div>
 
-                {/* Support CTA */}
-                <div className="bg-emerald-50 rounded-2xl p-8 text-center border border-emerald-100">
-                    <h3 className="text-xl font-bold text-gray-900 mb-2">Still have questions?</h3>
-                    <p className="text-gray-600 mb-6">
-                        Our support team is available 24/7 to assist you.
-                    </p>
-                    <a
-                        href="https://wa.me/94719629664"
-                        target="_blank"
-                        className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-600 text-white rounded-xl font-bold hover:bg-emerald-700 transition-all shadow-lg shadow-emerald-600/20"
-                    >
-                        <MessageCircle className="w-5 h-5" />
-                        Chat on WhatsApp
-                    </a>
-                </div>
             </div>
         </section>
     );
